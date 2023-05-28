@@ -1,0 +1,19 @@
+---
+layout: default
+title: ESMAO - Etec De Suzano Meio Ambiente Online
+---
+
+<h1 class="text-center">Os Criadores do Projeto</h1>
+
+<div class="row">
+{% for creator in site.data.credits %}
+<div class="card mx-auto" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{ creator.name }}</h5>
+              <p class="card-text">Faz Parte do Grupo {{ creator.group }}</p>
+            <a href="#" class="btn btn-primary">Instagram</a>
+        </div>
+</div>
+{% endfor %}
+</div>
