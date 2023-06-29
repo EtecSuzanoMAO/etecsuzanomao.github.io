@@ -46,9 +46,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-domain: thehenoob.github.io
-url: https://thehenoob.github.io
-baseurl: /esmao/
+domain: etecsuzanomao.github.io
+url: https://etecsuzanomao.github.io/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
